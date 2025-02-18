@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import Link from "next/link";
+
 import Logo from "../assets/logos/trio_logo.svg";
 import SAP from "../assets/logos/sap.png";
 const Footer = () => {

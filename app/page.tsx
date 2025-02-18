@@ -1,6 +1,5 @@
 import Image from "next/image";
 import MaxWidthWrapper from "./components/MaxWidthWrapper";
-import BoxWrapper from "./components/BoxWrapper";
 
 import Poster from "./assets/images/coexistence.png";
 

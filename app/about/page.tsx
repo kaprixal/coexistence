@@ -40,7 +40,7 @@ export default function Home() {
         </h1>
         <hr className="bg-primary w-1/3 h-[2px] mx-auto mt-10"></hr>
         <p className="text-xl w-50 text-center mx-auto max-sm:text-base py-5 max-sm:text-center">
-          We're excited to announce that illuminaite, CSSU, and WiCS are teaming up to host an innovation-driven Hackathon this March! This isn&apos;t just about coding—it&apos;s about brainstorming, designing, and prototyping creative solutions to real-world challenges. Whether you&apos;re into tech, design, or problem-solving, this is your chance to collaborate, innovate, and showcase your ideas to industry professionals and professors.
+          We&apos;re excited to announce that illuminaite, CSSU, and WiCS are teaming up to host an innovation-driven Hackathon this March! This isn&apos;t just about coding—it&apos;s about brainstorming, designing, and prototyping creative solutions to real-world challenges. Whether you&apos;re into tech, design, or problem-solving, this is your chance to collaborate, innovate, and showcase your ideas to industry professionals and professors.
         </p>
         <p className="pt-5 text-center text-xl">📅 Date: Saturday, March 8th<br></br>
           ⏰ Time: 9 AM - 8PM<br></br>

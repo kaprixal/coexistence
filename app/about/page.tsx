@@ -65,16 +65,19 @@ export default function Home() {
         </h1>
         <ClubCards
           image={illuminaite}
+          link="https://illuminaite-academy.github.io/"
           title="illuminaite"
           description="We believe everyone, no matter what major, should have the liberty to use these powerful technologies efficiently and ethically. we aim to lower the barriers of entry into the tech field through hosting accessible, hybrid events and growing a deeply connected online community."
         ></ClubCards>
         <ClubCards
           image={WiCS}
+          link="https://uoftwics.netlify.app/"
           title="Women in Computer Science (WiCS)"
           description="University of Toronto Women in Computer Science is a student-led organization dedicated to supporting all computer science students in their academic and professional careers."
         ></ClubCards>
         <ClubCards
           image={CSSU}
+          link="https://www.cssu.ca/"
           title="Computer Science Student Union (CSSU)"
           description="The Computer Science Student Union (CSSU) represents over 4300 Computer Science students who are either taking a Computer Science course or are part of a Computer Science program at the University of Toronto St. George campus. We are a student-governed body that receives funding from the Arts & Science Students’ Union, the Department of Computer Science, and our union store."
         ></ClubCards>

@@ -1,69 +1,73 @@
-import Image from "next/image";
 import MaxWidthWrapper from "../components/MaxWidthWrapper";
-
-
-import Poster from "../assets/images/coexistence.png";
+import jellycatSun from "../assets/prizes/jellycatSun.svg";
+import Image from "next/image";
+import { Carousel } from "../components/ui/carousel";
 
 export default function Home() {
+  const slideData = [
+    {
+      title: "Bunny",
+      button: "Explore Component",
+      src: "../assets/prizes/jellycatBunny.svg",
+    },
+    {
+      title: "Lego",
+      button: "Explore Component",
+      src: "../assets/prizes/lego.png",
+    },
+    {
+      title: "Projectors",
+      button: "Explore Component",
+      src: "../assets/prizes/projectors.png",
+    },
+  ];
   return (
     <main>
-      <div className="w-full h-[60vh] max-sm:h-[50vh] relative">
+      <div className="w-full h-[47vh] max-sm:h-[30vh] relative">
         <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-t from-white/70  to-white/0 to-10%"></div>
         {/* Text Overlay */}
         <div className="absolute inset-0 flex flex-col items-center justify-center z-10 bg-primary text-white">
-          <p className="text-2xl" > illuminaite x WiCS x CSSU </p>
-          <p> presents</p>
-          <h1 className="text-8xl pt-5 font-extrabold text-white drop-shadow-2xl text-center uppercase">
-            co-existence with ai:
+          <h1 className="text-8xl pt-5 font-extrabold text-white drop-shadow-2xl text-center uppercase max-sm:text-7xl">
+            prizing
           </h1>
-          <h2 className="text-3xl font-extrabold pt-5">A University of Toronto Artificial Intelligence Ethics Hackathon </h2>
-          <p className="pt-5">March 8th 9am - 8pm 2025 &#x2022; University of Toronto St. George Campus </p>
-          <a
-            className="mt-5 flex justify-center items-center text-center text-white bg-secondary rounded-full px-10 py-3 max-sm:text-xl text-2xl bt font-extrabold duration-50 hover:scale-105 active:scale-85 hover:bg-[#A1E6EB] hover:text-primary uppercase" target="_blank"
-            href="https://forms.gle/c44xoGNcv5LuxBoj6"
-          >
-            Register Now
-          </a>
-          <a
-            className="mt-5 text-white text-lg underline hover:underline-offset-4"
-            href="/sponsors"
-          >
-            Interested in becoming a sponsor?
-          </a>
         </div>
       </div>
 
-      <MaxWidthWrapper>
-        {/* Hero section */}
-        <h1 className="mt-20 max-sm:text-3xl max-sm:text-center text-primary text-3xl font-bold max-md:text-5xl text-center">
-          🚀✨ Introducing UofT AI Ethics Hackathon 2025 Hosted by WiCS, CSSU and illuminaite✨🚀
+      <MaxWidthWrapper className="pt-8">
+        <h1 className="mt-16 text-3xl lg:text-5xl text-primary font-bold">
+          Exciting Prizes Await!
         </h1>
+        <div className="sm:text-xl w-50 mx-auto pt-5 text-base lg:text-2xl">
+          <p>
+            {`At UofT AI Ethics Hackathon 2025, your creativity and problem-solving skills could earn you some awesome prizes!`}
+            <br />
+            <br />
+            {`🏆 Top 3 Teams: The 1st, 2nd, and 3rd place winners will get to choose from a selection of prizes, including mini projectors, Jellycats, and LEGO sets—with selection order based on placement. UofT Entrepreneurship is also offering 3 one-year memberships in our ONRamp co-working and community space for first place winners.`}
+          </p>
+        </div>
+        <div className="relative overflow-hidden w-full h-full py-20">
+          <Carousel slides={slideData} />
+        </div>
         <hr className="bg-primary w-1/3 h-[2px] mx-auto mt-10"></hr>
-        <p className="text-xl w-50 text-center mx-auto max-sm:text-base py-5 max-sm:text-center">
-          We&apos;re excited to announce that illuminaite, CSSU, and WiCS are teaming up to host an innovation-driven Hackathon this March! This isn&apos;t just about coding—it&apos;s about brainstorming, designing, and prototyping creative solutions to real-world challenges. Whether you&apos;re into tech, design, or problem-solving, this is your chance to collaborate, innovate, and showcase your ideas to industry professionals and professors.
-        </p>
-        <p className="pt-5 text-center text-xl">📅 Date: Saturday, March 8th<br></br>
-          ⏰ Time: 9 AM - 8PM<br></br>
-          📍 Location: [TBD- UofT St. George Campus]
-        </p>
-        <h2 className="text-2xl font-extrabold uppercase text-center pt-5">
-          Register now for a chance to participate in this unique hackathon:
-        </h2>
-        <a
-          className="mt-5 w-60 mx-auto flex justify-center items-center text-center text-white bg-secondary rounded-full py-3 max-sm:text-xl text-2xl bt font-extrabold duration-50 hover:scale-105 active:scale-85 hover:bg-[#A1E6EB] hover:text-primary uppercase" target="_blank"
-          href="https://forms.gle/c44xoGNcv5LuxBoj6"
-        >
-          Register Now
-        </a>
-        <p className="italic text-center pt-3 pb-10">Note: you can sign up by yourself or with a group of up to 3 people. If you sign up alone we will find you a group to work with!</p>
+        <h1 className="mt-16 text-3xl lg:text-5xl text-primary font-bold">
+          Hackathon Draw
+        </h1>
+        <div className="sm:text-xl w-50 mx-auto pt-5 text-base lg:text-2xl">
+          <p>
+            {`🎟️ Participant Raffle: Just by attending, you’ll have a chance to win a Jellycat Amusable Sun Bag! All participants are eligible for the raffle, and more details will be provided at the registration desk on the day of the event.`}
+            <br />
+            <br />
+            {`Bring your best ideas, and you might just leave with an amazing prize! 🚀✨`}
+          </p>
+        </div>
+        <div className="flex justify-center items-center">
+          <Image
+            src={jellycatSun}
+            alt="jellycatSun"
+            className="h-auto w-64 md:w-80 lg:w-[458px] lg:pt-20 pt-10"
+          ></Image>
+        </div>
       </MaxWidthWrapper>
-      <Image
-        src={Poster}
-        alt="Co-Existence with AI"
-        className="w-1/2 h-1/2 object-cover mx-auto"
-        quality={100}
-        loading="lazy"
-      />
     </main>
   );
 }

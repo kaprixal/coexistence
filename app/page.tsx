@@ -11,7 +11,7 @@ export default function Home() {
         {/* Text Overlay */}
         <div className="absolute inset-0 flex flex-col items-center justify-center z-10 bg-primary text-white">
           <p className="text-2xl" > illuminaite x WiCS x CSSU </p>
-          <p> presents</p>
+          <p> presents </p>
           <h1 className="text-8xl pt-5 font-extrabold text-white drop-shadow-2xl text-center uppercase max-sm:text-5xl">
             co-existence with ai:
           </h1>
@@ -25,7 +25,7 @@ export default function Home() {
           </a>
           <a
             className="mt-5 text-white text-lg underline hover:underline-offset-4"
-            href="/sponsors"
+            href="/join"
           >
             Interested in becoming a sponsor?
           </a>

@@ -18,7 +18,7 @@ export default function Home() {
           <h2 className="text-3xl font-extrabold pt-5">A University of Toronto Artificial Intelligence Ethics Hackathon </h2>
           <p className="pt-5">March 8th 9am - 8pm 2025 &#x2022; University of Toronto St. George Campus </p>
           <a
-            className="mt-5 flex justify-center items-center text-center text-white bg-secondary rounded-full px-10 py-3 max-sm:text-xl text-2xl bt font-extrabold duration-50 hover:scale-105 active:scale-85 hover:bg-[#A1E6EB] hover:text-primary uppercase" target="_blank"
+            className="mt-5 flex justify-center items-center text-center text-white bg-secondary rounded-full px-10 py-3 max-sm:text-xl text-2xl bt font-extrabold duration-50 hover:scale-105 active:scale-85 hover:bg-[#A1E6EB] uppercase" target="_blank"
             href="https://forms.gle/c44xoGNcv5LuxBoj6"
           >
             Register Now
@@ -49,7 +49,7 @@ export default function Home() {
           Register now for a chance to participate in this unique hackathon:
         </h2>
         <a
-          className="mt-5 w-60 mx-auto flex justify-center items-center text-center text-white bg-secondary rounded-full py-3 max-sm:text-xl text-2xl bt font-extrabold duration-50 hover:scale-105 active:scale-85 hover:bg-[#A1E6EB] hover:text-primary uppercase" target="_blank"
+          className="mt-5 w-60 mx-auto flex justify-center items-center text-center text-white bg-secondary rounded-full py-3 max-sm:text-xl text-2xl bt font-extrabold duration-50 hover:scale-105 active:scale-85 hover:bg-[#A1E6EB] uppercase" target="_blank"
           href="https://forms.gle/c44xoGNcv5LuxBoj6"
         >
           Register Now

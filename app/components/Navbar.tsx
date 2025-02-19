@@ -56,10 +56,10 @@ const Navbar = () => {
                             sponsors
                         </Link>
                         <Link
-                            href={"/prizing"}
+                            href={"/prizes"}
                             className="duration-300 hover:scale-105 active:scale-95 hover:text-primary hover:font-medium"
                         >
-                            prizing
+                            prizes
                         </Link>
                         <Link
                             href={"/join"}

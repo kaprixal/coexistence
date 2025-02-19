@@ -19,7 +19,7 @@ export default function Home() {
           Get involved with the UofT AI Ethics Hackathon 2025!
         </h1>
         <p className="mt-5 text-2xl">
-          We are looking for passionate individuals to help make this event a success! Whether you want to create or judge groundbreaking projects, inspire as a speaker, mentor the next generation of innovators, or volunteer behind the scenes, there is a place for you at UofT AI Ethics Hackathon 2025.</p><p className="mt-5 text-2xl"> 
+          We are looking for passionate individuals to help make this event a success! Whether you want to create or judge groundbreaking projects, inspire as a speaker, mentor the next generation of innovators, sponsor our event or volunteer behind the scenes, there is a place for you at UofT AI Ethics Hackathon 2025.</p><p className="mt-5 text-2xl"> 
           This is your chance to engage with top talent, share your expertise, and contribute to the future of ethical AI.
         </p>
         <div className="mt-10 flex flex-col md:flex-row w-full justify-center items-center">
@@ -34,6 +34,12 @@ export default function Home() {
             href="https://forms.gle/c44xoGNcv5LuxBoj6"
           >
             Participant Sign Up
+          </a>
+          <a
+            className="mt-5 flex justify-center items-center text-center text-white bg-secondary rounded-full px-10 py-3 max-sm:text-xl text-2xl bt font-extrabold duration-50 hover:scale-105 active:scale-85 hover:bg-[#A1E6EB] uppercase" target="_blank"
+            href="mailto:wicsuoft@gmail.com"
+          >
+            Contact Us
           </a>
         </div>
       </MaxWidthWrapper>

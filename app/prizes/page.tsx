@@ -9,7 +9,7 @@ export default function Home() {
         {/* Text Overlay */}
         <div className="absolute inset-0 flex flex-col items-center justify-center z-10 bg-primary text-white">
           <h1 className="text-8xl pt-5 font-extrabold text-white drop-shadow-2xl text-center uppercase max-sm:text-6xl">
-            prizing
+            prizes
           </h1>
         </div>
       </div>

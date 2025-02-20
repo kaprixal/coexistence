@@ -24,7 +24,7 @@ const Navbar = () => {
                             height={30}
                             quality={100}
                         />{" "}
-                        <h1 className="flex-wrap pl-5 max-sm:text-sm text-[24px]">
+                        <h1 className="flex-wrap pl-5 max-sm:text-sm text-[24px] max-sm:justify-center max-sm:flex max-sm:items-center">
                             Co-Existence with AI
                         </h1>{" "}
                     </Link>
@@ -56,10 +56,10 @@ const Navbar = () => {
                             sponsors
                         </Link>
                         <Link
-                            href={"/prizing"}
+                            href={"/prizes"}
                             className="duration-300 hover:scale-105 active:scale-95 hover:text-primary hover:font-medium"
                         >
-                            prizing
+                            prizes
                         </Link>
                         <Link
                             href={"/join"}
@@ -101,28 +101,34 @@ const Navbar = () => {
                             about
                         </Link>
                         <Link
-                            href={"/staff"}
+                            href={"/schedule"}
                             className="border-b border-zinc-200 py-6 duration-300 hover:scale-105 active:scale-95 hover:text-primary"
                         >
-                            staff
+                            schedule
                         </Link>
-                        {/* <Link
-              href={"/teams"}
-              className="border-b border-zinc-200 py-6 duration-300 hover:scale-105 active:scale-95 hover:text-primary"
-            >
-              teams
-            </Link> */}
                         <Link
-                            href={"/contact"}
+                            href={"/faq"}
                             className="border-b border-zinc-200 py-6 duration-300 hover:scale-105 active:scale-95 hover:text-primary"
                         >
-                            contact
+                            faq
                         </Link>
                         <Link
                             href={"/sponsors"}
                             className="border-b border-zinc-200 py-6 duration-300 hover:scale-105 active:scale-95 hover:text-primary"
                         >
                             sponsors
+                        </Link>
+                        <Link
+                            href={"/prizing"}
+                            className="border-b border-zinc-200 py-6 duration-300 hover:scale-105 active:scale-95 hover:text-primary"
+                        >
+                            prizing
+                        </Link>
+                        <Link
+                            href={"/join"}
+                            className="border-b border-zinc-200 py-6 duration-300 hover:scale-105 active:scale-95 hover:text-primary"
+                        >
+                            join us
                         </Link>
                     </div>
                 )}

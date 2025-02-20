@@ -2,6 +2,9 @@ import MaxWidthWrapper from "../components/MaxWidthWrapper";
 import Image from "next/image";
 
 import SAP from "../assets/logos/sap.png";
+import UofTEntrepreneurship from "../assets/logos/uoftentrepreneur.png";
+import Scotiabank from "../assets/logos/scotiabank.png";
+import Nowit from "../assets/logos/nowit.png";
 
 export default function Home() {
   return (
@@ -49,9 +52,46 @@ export default function Home() {
           </a>
         </div>
 
-        <hr className="bg-primary w-1/3 h-[2px] mx-auto mt-10"></hr>
+        <hr className="bg-primary w-3/4 h-[2px] mx-auto mt-10"></hr>
 
-        
+        <h1 className="mt-16 mb-3 text-3xl lg:text-5xl text-primary font-bold">
+          Title Sponsor:
+        </h1>
+        <div className="flex flex-col md:flex-row w-full justify-center items-center mb-20">
+          <Image src={SAP} alt="SAP" className="w-1/3 max-sm:w-1/2" />
+          <div className="sm:text-xl w-2/3 mx-auto pt-5 text-base lg:text-2xl">
+            <p>
+              {`SAP is a global leader in enterprise application software, providing a range of solutions for businesses across various industries. With a focus on innovation and customer success, SAP helps organizations streamline operations, drive growth, and stay ahead in a rapidly evolving market. SAMPLE TEXT`}
+            </p>
+          </div>
+        </div>
+        <h2 className="mt-16 mb-3 text-2xl lg:text-3xl text-primary font-bold">
+          Co-Sponsors:
+        </h2>
+        <div className="flex flex-col md:flex-row w-full justify-center items-center mb-20">
+          <Image src={UofTEntrepreneurship} alt="UofT Entrepreneurship" className="w-1/3 max-sm:w-1/2" />
+          <div className="sm:text-xl w-2/3 mx-auto pt-5 text-base lg:text-2xl">
+            <p>
+              {`SAP is a global leader in enterprise application software, providing a range of solutions for businesses across various industries. With a focus on innovation and customer success, SAP helps organizations streamline operations, drive growth, and stay ahead in a rapidly evolving market. SAMPLE TEXT`}
+            </p>
+          </div>
+        </div>
+        <div className="flex flex-col md:flex-row w-full justify-center items-center max-sm:mb-20">
+          <Image src={Nowit} alt="Nowit" className="w-1/3 max-sm:w-1/2" />
+          <div className="sm:text-xl w-2/3 mx-auto pt-5 text-base lg:text-2xl">
+            <p>
+              {`SAP is a global leader in enterprise application software, providing a range of solutions for businesses across various industries. With a focus on innovation and customer success, SAP helps organizations streamline operations, drive growth, and stay ahead in a rapidly evolving market. SAMPLE TEXT`}
+            </p>
+          </div>
+        </div>
+        <div className="flex flex-col md:flex-row w-full justify-center items-center">
+          <Image src={Scotiabank} alt="Scotiabank" className="w-1/3 max-sm:w-1/2" />
+          <div className="sm:text-xl w-2/3 mx-auto pt-5 text-base lg:text-2xl">
+            <p>
+              {`SAP is a global leader in enterprise application software, providing a range of solutions for businesses across various industries. With a focus on innovation and customer success, SAP helps organizations streamline operations, drive growth, and stay ahead in a rapidly evolving market. SAMPLE TEXT`}
+            </p>
+          </div>
+        </div>
       </MaxWidthWrapper>
     </main>
   );

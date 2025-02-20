@@ -11,11 +11,16 @@
       "static/chunks/main-app.js",
       "static/chunks/app/page.js"
     ],
-    "/prizing/page": [
+    "/prizes/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/css/app/prizing/page.css",
-      "static/chunks/app/prizing/page.js"
+      "static/css/app/prizes/page.css",
+      "static/chunks/app/prizes/page.js"
+    ],
+    "/about/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/about/page.js"
     ]
   }
 }

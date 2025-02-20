@@ -1,9 +1,9 @@
 "use client";
 
 import MaxWidthWrapper from "../components/MaxWidthWrapper";
-import jellycatSun from "../../public/prizes/jellycatSun.svg";
 import Image from "next/image";
 import React from "react";
+import sun from "../assets/images/jellycatSun.svg";
 import "../globals.css";
 import { Carousel } from "../components/ui/carousel";
 
@@ -28,13 +28,8 @@ export default function Home() {
         <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-t from-white/70  to-white/0 to-10%"></div>
         {/* Text Overlay */}
         <div className="absolute inset-0 flex flex-col items-center justify-center z-10 bg-primary text-white">
-<<<<<<< HEAD:app/prizing/page.tsx
-          <h1 className="text-8xl pt-5 font-extrabold text-white drop-shadow-2xl text-center uppercase max-sm:text-7xl">
-            prizing
-=======
           <h1 className="text-8xl pt-5 font-extrabold text-white drop-shadow-2xl text-center uppercase max-sm:text-6xl">
             prizes
->>>>>>> 84060b35b582883b57e53bb490d9e9839a33cd51:app/prizes/page.tsx
           </h1>
         </div>
       </div>
@@ -70,7 +65,7 @@ export default function Home() {
         </div>
         <div className="flex justify-center items-center">
           <Image
-            src={jellycatSun}
+            src={sun}
             alt="jellycatSun"
             className="h-auto w-64 md:w-80 lg:w-[458px] lg:pt-20 pt-10"
           ></Image>

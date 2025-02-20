@@ -50,7 +50,7 @@ export default function Home() {
         </div>
       </div>
 
-      <MaxWidthWrapper className="pt-8">
+      <MaxWidthWrapper className="pt-8 text-center">
         <h1 className="mt-16 text-3xl lg:text-5xl text-primary font-bold">
           Exciting Prizes Await!
         </h1>

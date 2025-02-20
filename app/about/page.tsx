@@ -18,7 +18,7 @@ export default function Home() {
         </div>
       </div>
 
-      <MaxWidthWrapper className="pt-8">
+      <MaxWidthWrapper className="pt-8 text-center">
         {/* Hero section */}
         <DescriptionCards
           header="Co-existence with AI: UofT AI Ethics Hackathon 2025 Hosted by WiCS,

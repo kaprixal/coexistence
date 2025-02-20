@@ -27,7 +27,7 @@ export const DescriptionCards: React.FC<DescriptionProps> = ({
       </h1>
       <div className="sm:text-xl w-50 mx-auto pt-5 text-base lg:text-2xl">
         {splitSentences ? (
-          <ul className="list-disc pl-6">{splitIntoSentences(paragraph)}</ul>
+          <ul className="list-disc pl-6 inline-block text-left">{splitIntoSentences(paragraph)}</ul>
         ) : (
           <p>{paragraph}</p> // Display as normal paragraph if splitSentences is false
         )}

@@ -31,7 +31,7 @@ export const ClubCards: React.FC<ClubCardProps> = ({
           />
         </Link>
         <div>
-          <h3 className="text-2xl lg:text-4xl text-primary font-bold">
+          <h3 className="text-2xl lg:text-4xl text-primary font-bold text-left">
             {title}
           </h3>
           <p className="sm:text-xl text-base lg:text-2xl">{description}</p>

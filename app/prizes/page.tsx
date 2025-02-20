@@ -10,12 +10,28 @@ import { Carousel } from "../components/ui/carousel";
 export default function Home() {
   const slideData = [
     {
-      title: "LEGO Sets",
-      src: "/prizes/lego.png",
+      title: "LEGO Money Tree",
+      src: "/prizes/legoMoneyTree.png",
     },
     {
-      title: "Jellycats",
+      title: "LEGO 3-in-1",
+      src: "/prizes/legoBeach.png",
+    },
+    {
+      title: "LEGO Orchid",
+      src: "/prizes/legoOrchid.png",
+    },
+    {
+      title: "Jellycat Bunny",
       src: "/prizes/jellycatBunny.svg",
+    },
+    {
+      title: "Jellycat Cloud",
+      src: "/prizes/jellycatCloud.png",
+    },
+    {
+      title: "Jellycat Grey Cloud",
+      src: "/prizes/jellycatGreyCloud.png",
     },
     {
       title: "Mini Projectors",

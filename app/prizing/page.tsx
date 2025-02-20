@@ -1,24 +1,25 @@
+"use client";
+
 import MaxWidthWrapper from "../components/MaxWidthWrapper";
-import jellycatSun from "../assets/prizes/jellycatSun.svg";
+import jellycatSun from "../../public/prizes/jellycatSun.svg";
 import Image from "next/image";
+import React from "react";
+import "../globals.css";
 import { Carousel } from "../components/ui/carousel";
 
 export default function Home() {
   const slideData = [
     {
-      title: "Bunny",
-      button: "Explore Component",
-      src: "../assets/prizes/jellycatBunny.svg",
+      title: "LEGO Sets",
+      src: "/prizes/lego.png",
     },
     {
-      title: "Lego",
-      button: "Explore Component",
-      src: "../assets/prizes/lego.png",
+      title: "Jellycats",
+      src: "/prizes/jellycatBunny.svg",
     },
     {
-      title: "Projectors",
-      button: "Explore Component",
-      src: "../assets/prizes/projectors.png",
+      title: "Mini Projectors",
+      src: "/prizes/projectors.png",
     },
   ];
   return (
@@ -45,9 +46,11 @@ export default function Home() {
             {`🏆 Top 3 Teams: The 1st, 2nd, and 3rd place winners will get to choose from a selection of prizes, including mini projectors, Jellycats, and LEGO sets—with selection order based on placement. UofT Entrepreneurship is also offering 3 one-year memberships in our ONRamp co-working and community space for first place winners.`}
           </p>
         </div>
+        {/* carousel  */}
         <div className="relative overflow-hidden w-full h-full py-20">
           <Carousel slides={slideData} />
         </div>
+
         <hr className="bg-primary w-1/3 h-[2px] mx-auto mt-10"></hr>
         <h1 className="mt-16 text-3xl lg:text-5xl text-primary font-bold">
           Hackathon Draw

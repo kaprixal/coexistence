@@ -3,7 +3,7 @@ import Image from "next/image";
 
 import SAP from "../assets/logos/sap.png";
 import UofTEntrepreneurship from "../assets/logos/uoftentrepreneur.png";
-import Scotiabank from "../assets/logos/scotiabank.png";
+import CumulusData from "../assets/logos/cumulus.jpg";
 import Nowit from "../assets/logos/nowit.png";
 
 export default function Home() {
@@ -85,10 +85,10 @@ export default function Home() {
           </div>
         </div>
         <div className="flex flex-col md:flex-row w-full justify-center items-center">
-          <Image src={Scotiabank} alt="Scotiabank" className="w-1/4 max-sm:w-1/2" />
+          <Image src={CumulusData} alt="Scotiabank" className="w-1/4 max-sm:w-1/2" />
           <div className="sm:text-xl w-2/3 mx-auto pt-5 text-base lg:text-2xl">
             <p>
-              {`As one of Canada’s largest banks with a strong presence across the Americas, Scotiabank’s vision is to be our clients’ most trusted financial partner, to deliver sustainable, profitable growth and maximize total shareholder return. Guided by our purpose: "for every future," we help our clients, their families and their communities achieve success through a broad range of advice, products, and services, including personal and commercial banking, wealth management and private banking, corporate and investment banking, and capital markets.`}
+              {`With over 20 years of experience in IT leadership and solutions architecture, Cumulus Data (ADD LINK) specializes in turning intricate challenges into innovative, seamless solutions. Their expertise spans designing cutting-edge cloud infrastructures, driving big data advancements, and crafting intelligent content management systems. From strategic planning and cloud migrations to disaster recovery and enterprise architecture, they are dedicated to translating visions into impactful realities. Whether it’s optimizing performance, enhancing security, or leading digital transformations, they bring a blend of innovation, precision, and results to every initiative.`}
             </p>
           </div>
         </div>

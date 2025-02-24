@@ -3,7 +3,7 @@ import Image from "next/image";
 
 import SAP from "../assets/logos/sap.png";
 import UofTEntrepreneurship from "../assets/logos/uoftentrepreneur.png";
-import CumulusData from "../assets/logos/cumulus.jpg";
+import CumulusData from "../assets/logos/cumulus.png";
 import Nowit from "../assets/logos/nowit.png";
 
 export default function Home() {

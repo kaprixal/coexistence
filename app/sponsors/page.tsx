@@ -33,7 +33,9 @@ export default function Home() {
             {`Join us in shaping the future of AI ethics. Let’s build a responsible AI-driven world together!`}
             <br />
             <br />
-            {`Interested in partnering with us? Check out our sponsorship package or contact us at wicsuoft@gmail.com for more information.`}
+            {`Interested in partnering with us? Check out our sponsorship package or contact us at `}
+            <a className="sm:text-xl lg:text-2xl text-base text-secondary" href="mailto:wicsuoft@gmail.com">wicsuoft@gmail.com</a>
+            {` for more information.`}
             <br />
           </p>
         </div>

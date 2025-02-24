@@ -3,7 +3,7 @@ import Image from "next/image";
 
 import SAP from "../assets/logos/sap.png";
 import UofTEntrepreneurship from "../assets/logos/uoftentrepreneur.png";
-import Scotiabank from "../assets/logos/scotiabank.png";
+import CumulusData from "../assets/logos/cumulus.png";
 import Nowit from "../assets/logos/nowit.png";
 
 export default function Home() {
@@ -61,18 +61,21 @@ export default function Home() {
           <Image src={SAP} alt="SAP" className="w-1/4 max-sm:w-1/2" />
           <div className="sm:text-xl w-2/3 mx-auto pt-5 text-base lg:text-2xl">
             <p>
-              {`As a global leader in enterprise applications and business AI, SAP stands at the nexus of business and technology. For over 50 years, organizations have trusted SAP to bring out their best by uniting business-critical operations spanning finance, procurement, HR, supply chain, and customer experience. The company’s integrated applications connect all parts of a business into an intelligent suite on a fully digital platform, thereby replacing the process-driven, legacy platform. Today, SAP has more than 230 million cloud users, more than 100 solutions covering all business functions, and the largest cloud portfolio of any provider.`}
+              {`As a global leader in enterprise applications and business AI, `}
+              <a href="https://www.sap.com/canada/index.html" target="_blank" className="text-primary hover:underline">SAP</a>
+              {` stands at the nexus of business and technology. For over 50 years, organizations have trusted SAP to bring out their best by uniting business-critical operations spanning finance, procurement, HR, supply chain, and customer experience. The company’s integrated applications connect all parts of a business into an intelligent suite on a fully digital platform, thereby replacing the process-driven, legacy platform. Today, SAP has more than 230 million cloud users, more than 100 solutions covering all business functions, and the largest cloud portfolio of any provider.`}
             </p>
           </div>
         </div>
         <h2 className="mt-16 mb-3 text-2xl lg:text-3xl text-primary font-bold">
           Co-Sponsors:
         </h2>
-        <div className="flex flex-col md:flex-row w-full justify-center items-center mb-20">
+        <div className="flex flex-col md:flex-row w-full justify-center items-center">
           <Image src={UofTEntrepreneurship} alt="UofT Entrepreneurship" className="w-1/4 max-sm:w-1/2" />
           <div className="sm:text-xl w-2/3 mx-auto pt-5 text-base lg:text-2xl">
             <p>
-              {`The University of Toronto Entrepreneurship (UTE) community does much more than accelerate startups. We accelerate ideas, people, social impact, and technologies too. All while striving to create an environment that is inclusive and representative of the diverse and talented innovators and entrepreneurs around us. UTE is a central voice for entrepreneurship across U of T’s three campuses and represents a powerful network of 12+ accelerators. We are here to support, develop and celebrate our best and brightest founders and their startups through a broad range of resources, network access and entrepreneurship activities.`}
+              <a href="https://entrepreneurs.utoronto.ca/" target="_blank" className="text-primary hover:underline">The University of Toronto Entrepreneurship (UTE)</a>
+              {` community does much more than accelerate startups. We accelerate ideas, people, social impact, and technologies too. All while striving to create an environment that is inclusive and representative of the diverse and talented innovators and entrepreneurs around us. UTE is a central voice for entrepreneurship across U of T’s three campuses and represents a powerful network of 12+ accelerators. We are here to support, develop and celebrate our best and brightest founders and their startups through a broad range of resources, network access and entrepreneurship activities.`}
             </p>
           </div>
         </div>
@@ -80,15 +83,18 @@ export default function Home() {
           <Image src={Nowit} alt="Nowit" className="w-1/4 max-sm:w-1/2" />
           <div className="sm:text-xl w-2/3 mx-auto pt-5 text-base lg:text-2xl">
             <p>
-              {`NowIT is a boutique IT Managed Services and CFO/Controller firm located in Toronto’s Fashion Disctrict. With years of experience, our engineers have the expertise across all enterprise-level operating systems, applications and platforms. We offer timely support for Windows and macOS desktops, notebooks and as well as servers and network equipment.`}
+              <a href="https://nowit.ca/" target="_blank" className="text-primary hover:underline">NowIT</a>
+              {` is a boutique IT Managed Services and CFO/Controller firm located in Toronto’s Fashion District. With years of experience, our engineers have the expertise across all enterprise-level operating systems, applications and platforms. We offer timely support for Windows and macOS desktops, notebooks and as well as servers and network equipment.`}
             </p>
           </div>
         </div>
         <div className="flex flex-col md:flex-row w-full justify-center items-center">
-          <Image src={Scotiabank} alt="Scotiabank" className="w-1/4 max-sm:w-1/2" />
+          <Image src={CumulusData} alt="Cumulus Data" className="w-1/4 max-sm:w-1/2" />
           <div className="sm:text-xl w-2/3 mx-auto pt-5 text-base lg:text-2xl">
             <p>
-              {`As one of Canada’s largest banks with a strong presence across the Americas, Scotiabank’s vision is to be our clients’ most trusted financial partner, to deliver sustainable, profitable growth and maximize total shareholder return. Guided by our purpose: "for every future," we help our clients, their families and their communities achieve success through a broad range of advice, products, and services, including personal and commercial banking, wealth management and private banking, corporate and investment banking, and capital markets.`}
+              {`With over 20 years of experience in IT leadership and solutions architecture, `}
+              <a href="https://cumulusdata.ca/" target="_blank" className="text-primary hover:underline">Cumulus Data</a>
+              {` specializes in turning intricate challenges into innovative, seamless solutions. Their expertise spans designing cutting-edge cloud infrastructures, driving big data advancements, and crafting intelligent content management systems. From strategic planning and cloud migrations to disaster recovery and enterprise architecture, they are dedicated to translating visions into impactful realities. Whether it's optimizing performance, enhancing security, or leading digital transformations, they bring a blend of innovation, precision, and results to every initiative.`}
             </p>
           </div>
         </div>

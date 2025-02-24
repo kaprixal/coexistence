@@ -62,7 +62,7 @@ export default function Home() {
           <div className="sm:text-xl w-2/3 mx-auto pt-5 text-base lg:text-2xl">
             <p>
               {`As a global leader in enterprise applications and business AI, `}
-              <a href="https://www.sap.com/canada/index.html" target="_blank" className="text-primary hover:underline">SAP</a>
+              <a href="https://www.sap.com/canada/index.html" target="_blank" className="text-secondary hover:underline">SAP</a>
               {` stands at the nexus of business and technology. For over 50 years, organizations have trusted SAP to bring out their best by uniting business-critical operations spanning finance, procurement, HR, supply chain, and customer experience. The company’s integrated applications connect all parts of a business into an intelligent suite on a fully digital platform, thereby replacing the process-driven, legacy platform. Today, SAP has more than 230 million cloud users, more than 100 solutions covering all business functions, and the largest cloud portfolio of any provider.`}
             </p>
           </div>
@@ -74,7 +74,7 @@ export default function Home() {
           <Image src={UofTEntrepreneurship} alt="UofT Entrepreneurship" className="w-1/4 max-sm:w-1/2" />
           <div className="sm:text-xl w-2/3 mx-auto pt-5 text-base lg:text-2xl">
             <p>
-              <a href="https://entrepreneurs.utoronto.ca/" target="_blank" className="text-primary hover:underline">The University of Toronto Entrepreneurship (UTE)</a>
+              <a href="https://entrepreneurs.utoronto.ca/" target="_blank" className="text-secondary hover:underline">The University of Toronto Entrepreneurship (UTE)</a>
               {` community does much more than accelerate startups. We accelerate ideas, people, social impact, and technologies too. All while striving to create an environment that is inclusive and representative of the diverse and talented innovators and entrepreneurs around us. UTE is a central voice for entrepreneurship across U of T’s three campuses and represents a powerful network of 12+ accelerators. We are here to support, develop and celebrate our best and brightest founders and their startups through a broad range of resources, network access and entrepreneurship activities.`}
             </p>
           </div>
@@ -83,7 +83,7 @@ export default function Home() {
           <Image src={Nowit} alt="Nowit" className="w-1/4 max-sm:w-1/2" />
           <div className="sm:text-xl w-2/3 mx-auto pt-5 text-base lg:text-2xl">
             <p>
-              <a href="https://nowit.ca/" target="_blank" className="text-primary hover:underline">NowIT</a>
+              <a href="https://nowit.ca/" target="_blank" className="text-secondary hover:underline">NowIT</a>
               {` is a boutique IT Managed Services and CFO/Controller firm located in Toronto’s Fashion District. With years of experience, our engineers have the expertise across all enterprise-level operating systems, applications and platforms. We offer timely support for Windows and macOS desktops, notebooks and as well as servers and network equipment.`}
             </p>
           </div>
@@ -93,7 +93,7 @@ export default function Home() {
           <div className="sm:text-xl w-2/3 mx-auto pt-5 text-base lg:text-2xl">
             <p>
               {`With over 20 years of experience in IT leadership and solutions architecture, `}
-              <a href="https://cumulusdata.ca/" target="_blank" className="text-primary hover:underline">Cumulus Data</a>
+              <a href="https://cumulusdata.ca/" target="_blank" className="text-secondary hover:underline">Cumulus Data</a>
               {` specializes in turning intricate challenges into innovative, seamless solutions. Their expertise spans designing cutting-edge cloud infrastructures, driving big data advancements, and crafting intelligent content management systems. From strategic planning and cloud migrations to disaster recovery and enterprise architecture, they are dedicated to translating visions into impactful realities. Whether it's optimizing performance, enhancing security, or leading digital transformations, they bring a blend of innovation, precision, and results to every initiative.`}
             </p>
           </div>

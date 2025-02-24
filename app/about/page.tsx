@@ -1,6 +1,6 @@
 import MaxWidthWrapper from "../components/MaxWidthWrapper";
 import { ClubCards } from "../about/components/ClubCards";
-import { DescriptionCards } from "./components/DescriptionCards";
+import { DescriptionCards } from "../components/DescriptionCards";
 import illuminaite from "../assets/logos/illuminaite.svg";
 import WiCS from "../assets/logos/wics.svg";
 import CSSU from "../assets/logos/cssu.svg";
@@ -18,7 +18,7 @@ export default function Home() {
         </div>
       </div>
 
-      <MaxWidthWrapper className="pt-8 text-center">
+      <MaxWidthWrapper className="pt-8">
         {/* Hero section */}
         <DescriptionCards
           header="Co-existence with AI: UofT AI Ethics Hackathon 2025 Hosted by WiCS,
@@ -45,7 +45,7 @@ export default function Home() {
           splitSentences
         ></DescriptionCards>
 
-        <h2 className="text-3xl lg:text-5xl text-black font-extrabold uppercase text-center pt-24">
+        <h2 className="text-3xl lg:text-5xl text-primary font-extrabold uppercase text-center pt-24">
           Interested in attending? Register now!
         </h2>
         <a
@@ -60,7 +60,7 @@ export default function Home() {
           If you sign up alone we will find you a group to work with :)
         </p>
         <hr className="bg-primary w-1/3 h-[2px] mx-auto mt-10"></hr>
-        <h1 className="text-3xl lg:text-5xl text-black font-extrabold uppercase text-center pt-24 pb-10 lg:pb-20">
+        <h1 className="text-3xl lg:text-5xl text-primary font-extrabold uppercase text-center pt-24 pb-10 lg:pb-20">
           About the Clubs
         </h1>
         <ClubCards

@@ -18,7 +18,7 @@ export default function Home() {
           </h1>
         </div>
       </div>
-      <MaxWidthWrapper className="pt-8 text-center">
+      <MaxWidthWrapper className="pt-8">
         <h1 className="mt-16 text-3xl lg:text-5xl text-primary font-bold">
           Support the future of Ethical AI
         </h1>
@@ -33,7 +33,7 @@ export default function Home() {
             {`Join us in shaping the future of AI ethics. Let’s build a responsible AI-driven world together!`}
             <br />
             <br />
-            {`Interested in partnering with us?`}
+            {`Interested in partnering with us? Check out our sponsorship package or contact us at wicsuoft@gmail.com for more information.`}
             <br />
           </p>
         </div>

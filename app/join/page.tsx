@@ -1,5 +1,5 @@
 import MaxWidthWrapper from "../components/MaxWidthWrapper";
-import { DescriptionCards } from "../about/components/DescriptionCards";
+import { DescriptionCards } from "../components/DescriptionCards";
 
 export default function Home() {
   return (
@@ -13,7 +13,7 @@ export default function Home() {
           </h1>
         </div>
       </div>
-      <MaxWidthWrapper className="text-center">
+      <MaxWidthWrapper>
         {/* Hero section */}
         <DescriptionCards
           header="Get involved with the UofT AI Ethics Hackathon 2025!"

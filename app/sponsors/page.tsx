@@ -67,7 +67,7 @@ export default function Home() {
             </p>
           </div>
         </div>
-        <h2 className="mt-16 mb-3 text-2xl lg:text-3xl text-primary font-bold">
+        <h2 className="mt-16 mb-3 text-2xl lg:text-4xl text-primary font-bold">
           Co-Sponsors:
         </h2>
         <div className="flex flex-col md:flex-row w-full justify-center items-center">

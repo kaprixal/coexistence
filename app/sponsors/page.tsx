@@ -80,7 +80,7 @@ export default function Home() {
           <Image src={Nowit} alt="Nowit" className="w-1/4 max-sm:w-1/2" />
           <div className="sm:text-xl w-2/3 mx-auto pt-5 text-base lg:text-2xl">
             <p>
-              {`NowIT is a boutique IT Managed Services and CFO/Controller firm located in Toronto’s Fashion Disctrict. With years of experience, our engineers have the expertise across all enterprise-level operating systems, applications and platforms. We offer timely support for Windows and macOS desktops, notebooks and as well as servers and network equipment.`}
+              {`NowIT is a boutique IT Managed Services and CFO/Controller firm located in Toronto’s Fashion District. With years of experience, our engineers have the expertise across all enterprise-level operating systems, applications and platforms. We offer timely support for Windows and macOS desktops, notebooks and as well as servers and network equipment.`}
             </p>
           </div>
         </div>

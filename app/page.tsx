@@ -43,7 +43,7 @@ export default function Home() {
         </p>
         <p className="pt-5 text-center text-xl">📅 Date: Saturday, March 8th<br></br>
           ⏰ Time: 9 AM - 8PM<br></br>
-          📍 Location: [TBD- UofT St. George Campus]
+          📍 Location: Bahen Centre for Information Technology<br></br>40 St George St, Toronto, ON M5S 2E4
         </p>
         <h2 className="text-2xl font-extrabold uppercase text-center pt-5">
           Register now for a chance to participate in this unique hackathon:

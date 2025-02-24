@@ -23,7 +23,7 @@ export default function Home() {
     },
     {
       title: "Jellycat Bunny",
-      src: "/prizes/jellycatBunny.svg",
+      src: "/prizes/jellycatBunny.png",
     },
     {
       title: "Jellycat Cloud",

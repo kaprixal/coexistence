@@ -25,7 +25,7 @@ export default function Home() {
           </a>
           <a
             className="mt-5 text-white text-lg underline hover:underline-offset-4"
-            href="/join"
+            href="/sponsors"
           >
             Interested in becoming a sponsor?
           </a>

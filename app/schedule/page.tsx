@@ -68,7 +68,7 @@ export default function Home() {
             9:30 AM: Opening Ceremony + Finalize groups - Location(s):  BA1180
             </h1>
             <p>
-              Ensure that you have a team and finalize it before hackings starts!
+              Ensure that you have a team and finalize it before hacking starts!
             </p>
           </div>
           <div className="sm:text-xl w-50 mx-auto pt-5 mb-5 text-base lg:text-2xl ">

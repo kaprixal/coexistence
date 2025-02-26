@@ -76,7 +76,7 @@ export default function Home() {
               10:00 AM: Figma Workshop featuring IBM UI/UX Designer - Location(s):  BA1180
             </h1>
             <p>
-              Learn or brush up on your Figma skills, as you will be using Figma to create your deliverables. This is a good opportunity to sign up your group’s Figma project.
+              Learn or brush up on your Figma skills, as you will be using Figma to create your deliverables. This is a good opportunity to sign up your group&apos;s Figma project.
             </p>
           </div>
           <div className="sm:text-xl w-50 mx-auto pt-5 mb-5 text-base lg:text-2xl ">
@@ -85,7 +85,7 @@ export default function Home() {
             </h1>
             <p>
               Academic and Industry guests will be hosting a casual “cafe style” networking from 11am-12pm.
-              Pick up your lunch and meet industry professionals on Bahen's second floor!
+              Pick up your lunch and meet industry professionals on Bahen&apos;s second floor!
             </p>
           </div>
           <div className="sm:text-xl w-50 mx-auto pt-5 mb-5 text-base lg:text-2xl ">
@@ -94,7 +94,7 @@ export default function Home() {
             </h1>
             <p>
               Hacking will start at 12:15pm.
-              Throughout this time, mentors will be checking in to answer questions and give pointers. Or, find them at the mentors station if you need any help! We have 4 tutorial rooms booked for students to use during this time, it’s recommended students stay in these rooms for at least an hour between 12:15-5pm to get access to a mentor.
+              Throughout this time, mentors will be checking in to answer questions and give pointers. Or, find them at the mentors station if you need any help! We have 4 tutorial rooms booked for students to use during this time, it&apos;s recommended students stay in these rooms for at least an hour between 12:15-5pm to get access to a mentor.
             </p>
           </div>
           <div className="sm:text-xl w-50 mx-auto pt-5 mb-5 text-base lg:text-2xl ">
@@ -102,7 +102,7 @@ export default function Home() {
               5:15 PM: Submit Presentation and Prototype
             </h1>
             <p>
-              Your team’s submission MUST be made by 5:15pm. Again, late submissions may not be considered. Submit your work to our hackathon’s Devpost.
+              Your team&apos;s submission MUST be made by 5:15pm. Again, late submissions may not be considered. Submit your work to our hackathon&apos;s Devpost.
             </p>
           </div>
           <div className="sm:text-xl w-50 mx-auto pt-5 mb-5 text-base lg:text-2xl ">

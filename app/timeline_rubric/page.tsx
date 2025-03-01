@@ -1,6 +1,3 @@
-import MaxWidthWrapper from "../components/MaxWidthWrapper";
-import { DescriptionCards } from "../components/DescriptionCards";
-
 export default function Home() {
     return (
         <main>

@@ -3,7 +3,7 @@
 import MaxWidthWrapper from "../components/MaxWidthWrapper";
 import Image from "next/image";
 import React from "react";
-import sun from "../assets/images/jellycatSun.svg";
+import sun from "../assets/images/jellycatSun.png";
 import "../globals.css";
 import { Carousel } from "../components/ui/carousel";
 
@@ -37,6 +37,22 @@ export default function Home() {
       title: "Mini Projectors",
       src: "/prizes/projectors.png",
     },
+  ];
+
+  const slideData2 = [
+    {
+      title: "Muji Ring Notebooks",
+      src: "/prizes/MujiRingNotebooks.png",
+    },
+    {
+      title: "Muji Notebooks",
+      src: "/prizes/MujiNotebooks.png",
+    },
+    {
+      title: "Muji Cable Case",
+      src: "/prizes/MujiCableCase.png",
+    },
+    
   ];
   return (
     <main>
@@ -85,6 +101,18 @@ export default function Home() {
             alt="jellycatSun"
             className="h-auto w-64 md:w-80 lg:w-[458px] lg:pt-20 pt-10"
           ></Image>
+        </div>
+        <h1 className="mt-16 text-3xl lg:text-5xl text-primary font-bold">
+          Hackathon Giveaway
+        </h1>
+        <div className="sm:text-xl w-50 mx-auto pt-5 text-base lg:text-2xl">
+          <p>
+            {`🎟️ Giveaway: We are also doing a giveaway open to all participants for a Muji Prize Basket! More details will be available during the day of the event.`}
+            <br />
+          </p>
+        </div>
+        <div className="relative overflow-hidden w-full h-full py-20">
+          <Carousel slides={slideData2} />
         </div>
       </MaxWidthWrapper>
     </main>

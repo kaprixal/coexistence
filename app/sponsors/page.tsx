@@ -1,6 +1,6 @@
 import MaxWidthWrapper from "../components/MaxWidthWrapper";
 import Image from "next/image";
-
+import Perplexity from "../assets/logos/perplexity.png";
 import SAP from "../assets/logos/sap.png";
 import UofTEntrepreneurship from "../assets/logos/uoftentrepreneur.png";
 import CumulusData from "../assets/logos/cumulus.png";
@@ -97,6 +97,17 @@ export default function Home() {
               {`With over 20 years of experience in IT leadership and solutions architecture, `}
               <a href="https://cumulusdata.ca/" target="_blank" className="text-secondary hover:underline">Cumulus Data</a>
               {` specializes in turning intricate challenges into innovative, seamless solutions. Their expertise spans designing cutting-edge cloud infrastructures, driving big data advancements, and crafting intelligent content management systems. From strategic planning and cloud migrations to disaster recovery and enterprise architecture, they are dedicated to translating visions into impactful realities. Whether it's optimizing performance, enhancing security, or leading digital transformations, they bring a blend of innovation, precision, and results to every initiative.`}
+            </p>
+          </div>
+        </div>
+        <div className="flex flex-col md:flex-row w-full justify-center items-center">
+          <Image src={Perplexity} alt="Perplexity AI" className="w-1/4 max-sm:w-1/2" />
+          <div className="sm:text-xl w-2/3 mx-auto pt-5 text-base lg:text-2xl">
+            <p>
+              <a href="https://www.perplexity.ai/" target="_blank" className="text-secondary hover:underline">Perplexity AI</a>
+              {` is a conversational search engine that uses large language models to answer queries using sources from the web and cites links within the text response. Its developer,`} 
+              <a href="https://www.perplexity.ai/" target="_blank" className="text-secondary hover:underline">Perplexity AI</a>
+              {`, is based in San Francisco, California.`}
             </p>
           </div>
         </div>

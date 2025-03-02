@@ -138,10 +138,24 @@ export default function Home() {
           >
           </SpeakerCard>
           <SpeakerCard
+            name="Jesse Ward-Bond"
+            image="/guests/JWB.png"
+            title="PhD Student in MIE @ University of Toronto"
+            description="I am a 2nd year PhD student studying AI/Optimization for Urbanism. In particular, I investigate how we can minimize the environmental burdens of housing development while also meeting out housing goals: Clearly housing needs to be built, but urban infrastructure is responsible for a large portion of annual GHG emissions. Our planning decisions --- mainly where and how we choose to build housing --- have profound and long-lasting impacts on urban sustainability. I try to unpack and optimize these impacts using geospatial ML and operations research tools. Outside of school I write/host trivia events, and work on my pollinator garden."
+          >
+          </SpeakerCard>
+          <SpeakerCard
             name="Rui Qi"
             image="/guests/RQ.png"
             title="PhD Student"
             description="Rui Qi completed her bachelor&apos;s degree in the Integrated Biomedical Engineering and Health Sciences program at McMaster University in 2023, where she earned B.Eng BME with a specialization in Mechatronics. She is currently pursuing PhD studies in the Department of ECE at the University of Toronto, focusing on machine learning applications in analyzing electrocardiogram."
+          >
+          </SpeakerCard>
+          <SpeakerCard
+            name="Steven Coyne"
+            image="/guests/SC.png"
+            title="Assistant Professor, University of Toronto"
+            description="Hi! I am an Assistant Professor, Teaching Stream, in philosophy and computer science at the University of Toronto. I teach courses in applied ethics, philosophy of law, and ethics of technology. I am also a co-lead of and the main ethicist involved with the Embedded Ethics Education Initiative (E3I), which puts ethics modules co-developed and co-taught by philosophers and computer scientists into computer science classes. I have a PhD in philosophy from the University of Toronto and a BSc in applied mathematics from the University of Calgary."
           >
           </SpeakerCard>
 
@@ -158,6 +172,12 @@ export default function Home() {
             image="/guests/MT.png"
             title="Technical Lead / MATRA AI"
             description="Matthew Tamura is a 4th Year Engineering Science Student with a philosophy minor at the University of Toronto. He plays an active role in responsible AI research across disciplines, being part of the AI Fact Labels research group at the American Psychiatric Association, a research assistant at the Human Centered Data Science Lab, 2024-2025 Co-President of the University of Toronto Machine Intelligence Student Team (UTMIST), and technical lead at the AI Consulting/Auditing startup MATRA AI. His interests are AI Governance, AI Ethics and Human Computer Interaction."
+          >
+          </SpeakerCard>
+          <SpeakerCard
+            name="Mahri Kadyrova"
+            title="PhD Researcher at the University of Toronto&apos;s Electrical and Computer Engineering Department"
+            description="My research focuses on using computer vision to develop a tongue assessment tool that enables remote detection and assessment of neurodegenerative diseases. When I&apos;m not working on machine learning models, you&apos;ll find me reading fiction books or exploring art galleries."
           >
           </SpeakerCard>
           </div>

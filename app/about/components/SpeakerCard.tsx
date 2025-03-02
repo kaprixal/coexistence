@@ -7,8 +7,6 @@ interface SpeakerCardProps {
   name: string;
   title: string;
   company?: string;
-  logo1?: string; // Make social media links optional
-  logo2?: string;
   description: string;
 }
 
@@ -17,8 +15,6 @@ const SpeakerCard: React.FC<SpeakerCardProps> = ({
   name,
   title,
   company,
-  logo1,
-  logo2,
   description,
 }) => {
   return (

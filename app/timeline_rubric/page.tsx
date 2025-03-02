@@ -311,7 +311,7 @@ export default function Home() {
                 <ul className="list-disc pl-6 space-y-1 mb-5">
                   <li>
                     <p className="text-xl mb-2">
-                      If you're designing a digital product (e.g., app,
+                      If you&apos;re designing a digital product (e.g., app,
                       website), create wireframes and visual mockups.
                     </p>
                   </li>

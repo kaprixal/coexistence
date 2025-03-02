@@ -152,7 +152,7 @@ export default function Home() {
           >
           </SpeakerCard>
           <SpeakerCard
-            name="Steven Coyne"
+            name="Steve Coyne"
             image="/guests/SC.png"
             title="Assistant Professor, University of Toronto"
             description="Hi! I am an Assistant Professor, Teaching Stream, in philosophy and computer science at the University of Toronto. I teach courses in applied ethics, philosophy of law, and ethics of technology. I am also a co-lead of and the main ethicist involved with the Embedded Ethics Education Initiative (E3I), which puts ethics modules co-developed and co-taught by philosophers and computer scientists into computer science classes. I have a PhD in philosophy from the University of Toronto and a BSc in applied mathematics from the University of Calgary."
@@ -187,7 +187,7 @@ export default function Home() {
         ></DescriptionCards></div>
         <div className="flex flex-wrap gap-5 justify-center">
           <SpeakerCard
-            name="Steven Coyne"
+            name="Steve Coyne"
             image="/guests/SC.png"
             title="Assistant Professor, University of Toronto"
             description="Hi! I am an Assistant Professor, Teaching Stream, in philosophy and computer science at the University of Toronto. I teach courses in applied ethics, philosophy of law, and ethics of technology. I am also a co-lead of and the main ethicist involved with the Embedded Ethics Education Initiative (E3I), which puts ethics modules co-developed and co-taught by philosophers and computer scientists into computer science classes. I have a PhD in philosophy from the University of Toronto and a BSc in applied mathematics from the University of Calgary."

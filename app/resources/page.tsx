@@ -61,7 +61,8 @@ export default function Home() {
                         </a>
                     </li>
                 </ul>
-                <iframe className="w-2/3 mx-auto h-[100vh] relative mt-10"
+                <iframe
+                    className="w-full h-[50vh] sm:h-[70vh] lg:w-2/3 lg:h-[100vh] mx-auto relative mt-10"
                     src="/pdf/HackathonEthicsResources.pdf"
                     width="800"
                     height="500">

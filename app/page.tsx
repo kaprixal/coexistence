@@ -17,12 +17,12 @@ export default function Home() {
           </h1>
           <h2 className="text-3xl font-extrabold pt-5 text-center max-sm:text-xl">A University of Toronto Artificial Intelligence Ethics Hackathon </h2>
           <p className="pt-5 text-center max-sm:text-sm">March 8th 9am - 8pm 2025 &#x2022; University of Toronto St. George Campus </p>
-          <a
+          {/* <a
             className="mt-5 flex justify-center items-center text-center text-white bg-secondary rounded-full px-10 py-3 max-sm:text-xl text-2xl bt font-extrabold duration-50 hover:scale-105 active:scale-85 hover:bg-[#A1E6EB] uppercase" target="_blank"
             href="https://forms.gle/c44xoGNcv5LuxBoj6"
           >
             Register Now
-          </a>
+          </a> */}
           <a
             className="mt-5 text-white text-lg underline hover:underline-offset-4"
             href="/sponsors"
@@ -45,16 +45,18 @@ export default function Home() {
           ⏰ Time: 9 AM - 8PM<br></br>
           📍 Location: Bahen Centre for Information Technology<br></br>40 St George St, Toronto, ON M5S 2E4
         </p>
-        <h2 className="text-2xl font-extrabold uppercase text-center pt-5">
-          Register now for a chance to participate in this unique hackathon:
+        <h2 className="text-3xl lg:text-5xl text-primary font-extrabold uppercase text-center pt-24">
+          Signups for this year's hackathon are now closed!
         </h2>
+        <p className="italic text-center pt-5 pb-10 text-lg">
+          All Participants who completed the registration and commitment forms will receive onboarding information soon! Please contact us if you have any questions or concerns about the event.
+        </p>
         <a
-          className="mt-5 w-60 mx-auto flex justify-center items-center text-center text-white bg-secondary rounded-full py-3 max-sm:text-xl text-2xl bt font-extrabold duration-50 hover:scale-105 active:scale-85 hover:bg-[#A1E6EB] uppercase" target="_blank"
-          href="https://forms.gle/c44xoGNcv5LuxBoj6"
+          className="mx-10 flex justify-center items-center text-center text-white bg-secondary rounded-full px-10 py-3 max-sm:text-xl text-2xl bt font-extrabold duration-50 hover:scale-105 active:scale-85 hover:bg-[#A1E6EB] uppercase w-1/3 mx-auto mb-10" target="_blank"
+          href="mailto:wicsuoft@gmail.com"
         >
-          Register Now
+          contact us
         </a>
-        <p className="italic text-center pt-3 pb-10">Note: you can sign up by yourself or with a group of up to 3 people. If you sign up alone we will find you a group to work with!</p>
       </MaxWidthWrapper>
       <Image
         src={Poster}

@@ -61,12 +61,12 @@ const Navbar = () => {
                         >
                             prizes
                         </Link>
-                        <Link
+                        {/* <Link
                             href={"/join"}
                             className="duration-300 hover:scale-105 active:scale-95 hover:text-primary hover:font-medium"
                         >
                             join us
-                        </Link>
+                        </Link> */}
                     </div>
 
                     {/* Mobile nav */}

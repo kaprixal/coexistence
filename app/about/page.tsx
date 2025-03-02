@@ -47,19 +47,17 @@ export default function Home() {
         ></DescriptionCards>
 
         <h2 className="text-3xl lg:text-5xl text-primary font-extrabold uppercase text-center pt-24">
-          Interested in attending? Register now!
+          Signups for this year's hackathon are now closed!
         </h2>
-        <a
-          className="mt-5 w-60 mx-auto flex justify-center items-center text-center text-white bg-secondary rounded-full py-3 max-sm:text-xl text-2xl bt font-extrabold duration-50 hover:scale-105 active:scale-85 hover:bg-[#A1E6EB] hover:text-primary uppercase"
-          target="_blank"
-          href="https://forms.gle/c44xoGNcv5LuxBoj6"
-        >
-          Register Now
-        </a>
         <p className="italic text-center pt-5 pb-10 text-lg">
-          Note: you can sign up by yourself or with a group of up to 3 people.
-          If you sign up alone we will find you a group to work with :)
+          All Participants who completed the registration and commitment forms will receive onboarding information soon! Please contact us if you have any questions or concerns about the event.
         </p>
+        <a
+          className="mx-10 mt-5 flex justify-center items-center text-center text-white bg-secondary rounded-full px-10 py-3 max-sm:text-xl text-2xl bt font-extrabold duration-50 hover:scale-105 active:scale-85 hover:bg-[#A1E6EB] uppercase w-1/3 mx-auto" target="_blank"
+          href="mailto:wicsuoft@gmail.com"
+        >
+          contact us
+        </a>
         <hr className="bg-primary w-1/3 h-[2px] mx-auto mt-10"></hr>
         <h1 className="text-3xl lg:text-5xl text-primary font-extrabold uppercase text-center pt-24 pb-10 lg:pb-20">
           About the Clubs

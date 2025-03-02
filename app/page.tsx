@@ -46,7 +46,7 @@ export default function Home() {
           📍 Location: Bahen Centre for Information Technology<br></br>40 St George St, Toronto, ON M5S 2E4
         </p>
         <h2 className="text-3xl lg:text-5xl text-primary font-extrabold uppercase text-center pt-24">
-          Signups for this year's hackathon are now closed!
+          Signups for this year&apos;s hackathon are now closed!
         </h2>
         <p className="italic text-center pt-5 pb-10 text-lg">
           All Participants who completed the registration and commitment forms will receive onboarding information soon! Please contact us if you have any questions or concerns about the event.

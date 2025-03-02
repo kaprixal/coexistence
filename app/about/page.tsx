@@ -229,6 +229,7 @@ export default function Home() {
           <SpeakerCard
             image="/guests/AG.png"
             name="Audrey Garcia"
+            company="Workshop Speaker"
             title="UI/UX Designer, IBM"
             description="I&apos;m a self-taught product designer with a background in Economics and Liberal Arts. Currently, I&apos;m a UI/UX designer at IBM, shaping the future of enterprise business intelligence software. Outside of work, catch me at my pilates studio, learning circus arts, spending time with my pet, and giving back to the design community."
           >

@@ -87,6 +87,13 @@ export default function Home() {
         ></DescriptionCards></div>
         <div className="flex flex-wrap gap-5 justify-center">
           <SpeakerCard
+            name="Satish Rao"
+            image="/guests/SR.png"
+            title="PhD Candidate"
+            description="A passionate and optimistic leader with a diverse experience leading multiple technology implementations across the Insurance industry. Currently leading a team of rock stars in data engineering, database engineering and solving problems by developing cutting edge solutions at Northbridge Financial Corporation. Growing up in Bangalore, India I developed a passion for engineering & sports during my academic days which has been a constant source of joy and inspiration. With a Bachelor’s degree in Mechanical Engineering along with a Diploma in Advanced Computing, I have focused on building a career in Information Technology and strive to achieve excellence in everything I get an opportunity to do or be a part of. In my free time, I enjoy spending time with family & friends, traveling, and sports. I also spend time volunteering for community events."
+          >
+          </SpeakerCard>
+          <SpeakerCard
             name="Rawan Abulibdeh"
             image="/guests/RA.png"
             title="PhD Candidate"

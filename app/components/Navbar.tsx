@@ -119,10 +119,10 @@ const Navbar = () => {
                             sponsors
                         </Link>
                         <Link
-                            href={"/prizing"}
+                            href={"/prizes"}
                             className="border-b border-zinc-200 py-6 duration-300 hover:scale-105 active:scale-95 hover:text-primary"
                         >
-                            prizing
+                            prizes
                         </Link>
                         <Link
                             href={"/join"}

@@ -89,8 +89,15 @@ export default function Home() {
           <SpeakerCard
             name="Satish Rao"
             image="/guests/SR.png"
-            title="PhD Candidate"
-            description="A passionate and optimistic leader with a diverse experience leading multiple technology implementations across the Insurance industry. Currently leading a team of rock stars in data engineering, database engineering and solving problems by developing cutting edge solutions at Northbridge Financial Corporation. Growing up in Bangalore, India I developed a passion for engineering & sports during my academic days which has been a constant source of joy and inspiration. With a Bachelor’s degree in Mechanical Engineering along with a Diploma in Advanced Computing, I have focused on building a career in Information Technology and strive to achieve excellence in everything I get an opportunity to do or be a part of. In my free time, I enjoy spending time with family & friends, traveling, and sports. I also spend time volunteering for community events."
+            title="Vice President, Enterprise Data & Technology, Northbridge Financial Corporation"
+            description="A passionate and optimistic leader with a diverse experience leading multiple technology implementations across the Insurance industry. Currently leading a team of rock stars in data engineering, database engineering and solving problems by developing cutting edge solutions at Northbridge Financial Corporation. With a Bachelor’s degree in Mechanical Engineering along with a Diploma in Advanced Computing, I have focused on building a career in Information Technology and strive to achieve excellence in everything I get an opportunity to do or be a part of. In my free time, I enjoy spending time with family & friends, traveling, and sports. I also spend time volunteering for community events."
+          >
+          </SpeakerCard>
+          <SpeakerCard
+            name="Mehali Modi"
+            image="/guests/MM.png"
+            title="Software Engineer"
+            description="I am a mobile developer by profession with a passion for creating seamless digital experiences. I enjoy working with AI and love learning how to integrate it into mobile apps in my free time. Outside of tech, I like to go on food sprees and explore artistic structures like hidden graffiti walls. Mediterranean cuisine is my favorite, and nothing beats a good mezze platter."
           >
           </SpeakerCard>
           <SpeakerCard
@@ -118,7 +125,7 @@ export default function Home() {
           </SpeakerCard>
 
           <SpeakerCard
-            name="Shahryaz"
+            name="Shahryaz Bari"
             image="/guests/Sh.png"
             title="IT Leader & Solutions Architect at Cumulus Data Consulting Inc"
             description="With over 20 years of experience in IT leadership and solutions architecture, I specialize in turning intricate challenges into innovative, seamless solutions. My expertise spans designing cutting-edge cloud infrastructures, driving big data advancements, and crafting intelligent content management systems. From strategic planning and cloud migrations to disaster recovery and enterprise architecture, I’m dedicated to translating visions into impactful realities. Whether it’s optimizing performance, enhancing security, or leading digital transformations, I bring a blend of innovation, precision, and results to every initiative. Together, we can create a future powered by smart technology and forward-thinking strategies."
@@ -193,6 +200,13 @@ export default function Home() {
           paragraph=""
         ></DescriptionCards></div>
         <div className="flex flex-wrap gap-5 justify-center">
+          <SpeakerCard
+            name="Tiffany Joseph"
+            image="/guests/TJ.png"
+            title="Cloud Solution Architect – Modern Work, Microsoft"
+            description="Tiffany Joseph is an engineer by training, and has worked in STEM fields including aerospace, distribution logistics and cloud technology. Her passion is interdisciplinary, with a strong focus on equity and opportunities for marginalized groups, as well as intersectional considerations in her endeavours. She has worked in the generative AI space and is passionate about helping students prepare for their careers through initiatives such as this one."
+          >
+          </SpeakerCard>
           <SpeakerCard
             name="Steve Coyne"
             image="/guests/SC.png"

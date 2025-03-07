@@ -64,7 +64,7 @@ export default function Home() {
                 <iframe
                     className="w-full h-[50vh] sm:h-[70vh] lg:w-2/3 lg:h-[100vh] mx-auto relative mt-10"
                     src="/pdf/HackathonEthicsResources.pdf"
-                    width="800"
+                    width="100%"
                     height="500">
                 </iframe>
             </MaxWidthWrapper>

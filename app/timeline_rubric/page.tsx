@@ -79,7 +79,7 @@ export default function Home() {
           <a
             href="https://www.figma.com/education/"
             target="_blank"
-            className="text-secondary hover:underline"
+            className="text-secondary hover:underline text-lg lg:text-3xl"
           >
             https://www.figma.com/education/
           </a>

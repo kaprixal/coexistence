@@ -17,7 +17,15 @@ export default function Home() {
           Theme: Co-existence with AI
         </h1>
         <div className="sm:text-xl w-50 mx-auto pt-5 mb-5 text-base lg:text-2xl ">
-          <h1 className="text-3xl font-bold mb-5">Subthemes & Examples:</h1>
+          <p> For the hackathon, we have provided a rubric as a guideline for your project, as well as a suggested timeline for the day of the hackathon. See the rubric and timeline below. </p>
+          <h1 className="text-3xl font-bold mb-5 mt-5">Rubric:</h1>
+          <iframe
+            className="w-full h-[50vh] sm:h-[70vh] lg:w-2/3 lg:h-[150vh] mx-auto relative mt-10"
+            src="/pdf/HackathonRubric.pdf"
+            width="800"
+            height="500">
+          </iframe>
+          <h1 className="text-3xl font-bold mb-5 mt-5">Subthemes & Examples:</h1>
           <ul className="list-disc pl-6 space-y-6">
             <li>
               <h2 className="font-bold text-2xl mb-2">AI in Everyday Life</h2>

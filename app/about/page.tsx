@@ -87,6 +87,13 @@ export default function Home() {
         ></DescriptionCards></div>
         <div className="flex flex-wrap gap-5 justify-center">
           <SpeakerCard
+            name="Bey Wang"
+            image="/guests/BW.png"
+            title="Senior Manager of Digital Serve & Support at Rogers Communications"
+            description="l&apos;ve led the development and delivery of customized digital services, enhancing user engagement and satisfaction. As an empathetic leader, I&apos;m passionate about building a community that leverages Al for wellness. I&apos;m excited to connect with fellow students and industry professionals to collaborate on innovative solutions at this hackathon."
+          >
+          </SpeakerCard>
+          <SpeakerCard
             name="Satish Rao"
             image="/guests/SR.png"
             title="Vice President, Enterprise Data & Technology, Northbridge Financial Corporation"
@@ -257,7 +264,43 @@ export default function Home() {
           </SpeakerCard>
 
         </div>
-        
+        <div className="text-center"><DescriptionCards
+          header="SAP Guests"
+          paragraph=""
+        ></DescriptionCards></div>
+        <div className="flex flex-wrap gap-5 justify-center">
+          <SpeakerCard
+            name="Bryan Chang"
+            image="/guests/BC.png"
+            title="Cloud Solution Architect – Modern Work, Microsoft"
+            description="Bryan is currently a Product Marketing Consultant at SAP. With previous work experience on Sales, Marketing and Growth across Nestle, Ab-Inbev, Microsoft and Delivery Hero. He has a MBA degree at Rotman Uoft and a industrial engineering bachelor degree. On the side, Bryan is partner of a boutique consulting firm based In South America that help SMB companies to craft their marketing and sales strategy. He is interest in AI business topics and exploring restaurants around the city."
+          >
+          </SpeakerCard>
+          <SpeakerCard
+            name="Tenzin Ozaki"
+            image="/guests/TO.png"
+            title="Account Executive/SAP"
+            description="Tenzin has been at SAP for two years, joining through SAP’s Sales Academy program and currently working as a Large Enterprise Account Executive on Canada’s Public Sector industry team. Tenzin covers Federal Crown Corporations, Municipalities, and Higher Education, including the University of Toronto.
+"
+          >
+          </SpeakerCard>
+
+          <SpeakerCard
+            name="Michelle Zorn"
+            image="/guests/MZ.png"
+            title="Industry Account Executive, SAP"
+            description="Sales Leader offering 20+ years of experience driving continuous revenue growth, executing dynamic strategies and leading teams in achieving ambitious goals. Recognized as an energetic relationship-builder who quickly gains the trust and respect of clients, senior executives, external partners and key decision-makers to deliver strategies that align with performance goals and long-term business objectives. Hands-on leader with a proven history of building reliable teams and exercising a sense of urgency in promoting a culture of performance. Confident communicator adept at delivering compelling presentations, engaging stakeholders and negotiating lucrative deals."
+          >
+          </SpeakerCard>
+
+          <SpeakerCard
+            name="Anton Charles Doss"
+            image="/guests/ACD.png"
+            title="SAP Consultant - Technical Service Manager / Company: SAP Canada"
+            description="Charles is an SAP BASIS professional working as a Technical Service Manager (TSM) in the Enterprise Cloud Services (ECS) unit. He serves as a trusted technical advisor, ensuring the security and optimization of customers&apos; SAP systems within SAP ECS. With a deep understanding of customer business processes, IT landscapes, and complexities, he plays a key role in guiding organizations through their digital transformation. As part of the RISE with SAP initiative, supporting SAP ERP customers in their transition to SAP Business Suite, enabling them to stay ahead of the competition and drive continuous innovation. A passionate sports enthusiast with a keen interest in cricket and table tennis."
+          >
+          </SpeakerCard>
+        </div>
         {/* <hr className="bg-primary w-1/3 h-[2px] mx-auto mt-10"></hr> */}
 
       </MaxWidthWrapper>

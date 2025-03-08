@@ -23,7 +23,7 @@ export default function Home() {
             className="w-full h-[50vh] sm:h-[70vh] lg:w-2/3 lg:h-[150vh] mx-auto relative mt-10"
             src="/pdf/HackathonRubric.pdf"
             width="100%"
-            height="500">
+            height="auto">
           </iframe>
           <h1 className="text-3xl font-bold mb-5 mt-5">Subthemes & Examples:</h1>
           <ul className="list-disc pl-6 space-y-6">

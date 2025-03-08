@@ -87,12 +87,6 @@ export default function Home() {
         ></DescriptionCards></div>
         <div className="flex flex-wrap gap-5 justify-center">
           <SpeakerCard
-            name="Sujatha Kamma"
-            image="/guests/SK.png"
-            title="MBA MSc PMP | Industry Executive Advisor for Healthcare, Public Sector, Education & AI"
-            description="Sujatha has a background in Medical Genetics, Bioinformatics, Biostatistics, and AI and an MBA. With over 25 years of experience, she has developed expertise in leadership, technology, and organizational change management within various public sector, startups and private organizations. She is also the founder of an AI startup and serves as a mentor and expert advisor for AI startup companies. Connect with her on LinkedIn https://www.linkedin.com/in/sujathakamma/"
-          ></SpeakerCard>
-          <SpeakerCard
             name="Bey Wang"
             image="/guests/BW.png"
             title="Senior Manager of Digital Serve & Support at Rogers Communications"
@@ -216,11 +210,12 @@ export default function Home() {
         ></DescriptionCards></div>
         <div className="flex flex-wrap gap-5 justify-center">
           <SpeakerCard
-            name="Sujatha Kamma"
-            image="/guests/SK.png"
-            title="MBA MSc PMP | Industry Executive Advisor for Healthcare, Public Sector, Education & AI"
-            description="Sujatha has a background in Medical Genetics, Bioinformatics, Biostatistics, and AI and an MBA. With over 25 years of experience, she has developed expertise in leadership, technology, and organizational change management within various public sector, startups and private organizations. She is also the founder of an AI startup and serves as a mentor and expert advisor for AI startup companies. Connect with her on LinkedIn https://www.linkedin.com/in/sujathakamma/"
-          ></SpeakerCard>
+            name="Hao Chen"
+            image="/guests/HC.png"
+            title="Specialist Customer Success Manager for Supply Chain Management, SAP"
+            description="Hao is a Customer Success Manager helping large enterprises optimize efficiency and operationalize excellence in their supply chains. He is a proud graduate of St. Michael’s College in the University of Toronto and is a sitting member of the Alumni Board. Outside of work Hao enjoys long walks, good food, and spending quality time with those he&apos;s closest with."
+          >
+          </SpeakerCard>
           <SpeakerCard
             name="Isiah Ngou"
             image="/guests/IN.png"
@@ -284,14 +279,8 @@ export default function Home() {
         ></DescriptionCards></div>
         <div className="flex flex-wrap gap-5 justify-center">
           <SpeakerCard
-            name="Hao Chen"
-            image="/guests/HC.png"
-            title="Specialist Customer Success Manager for Supply Chain Management, SAP"
-            description="Hao is a Customer Success Manager helping large enterprises optimize efficiency and operationalize excellence in their supply chains. He is a proud graduate of St. Michael’s College in the University of Toronto and is a sitting member of the Alumni Board. Outside of work Hao enjoys long walks, good food, and spending quality time with those he&apos;s closest with."
-          >
-          </SpeakerCard>
-          <SpeakerCard
             name="Sujatha Kamma"
+            image="/guests/SK.png"
             title="MBA MSc PMP | Industry Executive Advisor for Healthcare, Public Sector, Education & AI, SAP"
             description="Sujatha has a background in Medical Genetics, Bioinformatics, Biostatistics, and AI and an MBA. With over 25 years of experience, she has developed expertise in leadership, technology, and organizational change management within various public sector, startups and private organizations. She is also the founder of an AI startup and serves as a mentor and expert advisor for AI startup companies. Connect with her on LinkedIn https://www.linkedin.com/in/sujathakamma/"
           >

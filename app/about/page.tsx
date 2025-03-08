@@ -87,6 +87,12 @@ export default function Home() {
         ></DescriptionCards></div>
         <div className="flex flex-wrap gap-5 justify-center">
           <SpeakerCard
+            name="Sujatha Kamma"
+            image="/guests/SK.png"
+            title="MBA MSc PMP | Industry Executive Advisor for Healthcare, Public Sector, Education & AI"
+            description="Sujatha has a background in Medical Genetics, Bioinformatics, Biostatistics, and AI and an MBA. With over 25 years of experience, she has developed expertise in leadership, technology, and organizational change management within various public sector, startups and private organizations. She is also the founder of an AI startup and serves as a mentor and expert advisor for AI startup companies. Connect with her on LinkedIn https://www.linkedin.com/in/sujathakamma/"
+          ></SpeakerCard>
+          <SpeakerCard
             name="Bey Wang"
             image="/guests/BW.png"
             title="Senior Manager of Digital Serve & Support at Rogers Communications"
@@ -141,16 +147,17 @@ export default function Home() {
 
           <SpeakerCard
             name="Mahri Kadyrova"
+            image="/guests/MK.png"
             title="PhD Researcher at the University of Toronto&apos;s Electrical and Computer Engineering Department"
             description="My research focuses on using computer vision to develop a tongue assessment tool that enables remote detection and assessment of neurodegenerative diseases. When I&apos;m not working on machine learning models, you&apos;ll find me reading fiction books or exploring art galleries."
           >
           </SpeakerCard>
-          </div>
+        </div>
         <div className="text-center"><DescriptionCards
           header="Mentors"
           paragraph=""
         ></DescriptionCards></div>
-          <div className="flex flex-wrap gap-5 justify-center">
+        <div className="flex flex-wrap gap-5 justify-center">
           <SpeakerCard
             name="Yasmine Samir Abdelrahman"
             image="/guests/YSA.png"
@@ -197,21 +204,28 @@ export default function Home() {
           </SpeakerCard>
           <SpeakerCard
             name="Mahri Kadyrova"
+            image="/guests/MK.png"
             title="PhD Researcher at the University of Toronto&apos;s Electrical and Computer Engineering Department"
             description="My research focuses on using computer vision to develop a tongue assessment tool that enables remote detection and assessment of neurodegenerative diseases. When I&apos;m not working on machine learning models, you&apos;ll find me reading fiction books or exploring art galleries."
           >
           </SpeakerCard>
-          </div>
+        </div>
         <div className="text-center"><DescriptionCards
           header="Judges"
           paragraph=""
         ></DescriptionCards></div>
         <div className="flex flex-wrap gap-5 justify-center">
           <SpeakerCard
-            name="Tiffany Joseph"
-            image="/guests/TJ.png"
-            title="Cloud Solution Architect – Modern Work, Microsoft"
-            description="Tiffany Joseph is an engineer by training, and has worked in STEM fields including aerospace, distribution logistics and cloud technology. Her passion is interdisciplinary, with a strong focus on equity and opportunities for marginalized groups, as well as intersectional considerations in her endeavours. She has worked in the generative AI space and is passionate about helping students prepare for their careers through initiatives such as this one."
+            name="Sujatha Kamma"
+            image="/guests/SK.png"
+            title="MBA MSc PMP | Industry Executive Advisor for Healthcare, Public Sector, Education & AI"
+            description="Sujatha has a background in Medical Genetics, Bioinformatics, Biostatistics, and AI and an MBA. With over 25 years of experience, she has developed expertise in leadership, technology, and organizational change management within various public sector, startups and private organizations. She is also the founder of an AI startup and serves as a mentor and expert advisor for AI startup companies. Connect with her on LinkedIn https://www.linkedin.com/in/sujathakamma/"
+          ></SpeakerCard>
+          <SpeakerCard
+            name="Isiah Ngou"
+            image="/guests/IN.png"
+            title="Robotic Scene Understanding Researcher at UToronto, Incoming at Meta"
+            description="Isaiah is a masters student at UofT, his work focuses on edge AI deployment and low-latency perception systems."
           >
           </SpeakerCard>
           <SpeakerCard
@@ -270,16 +284,29 @@ export default function Home() {
         ></DescriptionCards></div>
         <div className="flex flex-wrap gap-5 justify-center">
           <SpeakerCard
+            name="Hao Chen"
+            image="/guests/HC.png"
+            title="Specialist Customer Success Manager for Supply Chain Management, SAP"
+            description="Hao is a Customer Success Manager helping large enterprises optimize efficiency and operationalize excellence in their supply chains. He is a proud graduate of St. Michael’s College in the University of Toronto and is a sitting member of the Alumni Board. Outside of work Hao enjoys long walks, good food, and spending quality time with those he&apos;s closest with."
+          >
+          </SpeakerCard>
+          <SpeakerCard
+            name="Sujatha Kamma"
+            title="MBA MSc PMP | Industry Executive Advisor for Healthcare, Public Sector, Education & AI, SAP"
+            description="Sujatha has a background in Medical Genetics, Bioinformatics, Biostatistics, and AI and an MBA. With over 25 years of experience, she has developed expertise in leadership, technology, and organizational change management within various public sector, startups and private organizations. She is also the founder of an AI startup and serves as a mentor and expert advisor for AI startup companies. Connect with her on LinkedIn https://www.linkedin.com/in/sujathakamma/"
+          >
+          </SpeakerCard>
+          <SpeakerCard
             name="Bryan Chang"
             image="/guests/BC.png"
-            title="Cloud Solution Architect – Modern Work, Microsoft"
+            title="Product Marketing Consultant, SAP"
             description="Bryan is currently a Product Marketing Consultant at SAP. With previous work experience on Sales, Marketing and Growth across Nestle, Ab-Inbev, Microsoft and Delivery Hero. He has a MBA degree at Rotman Uoft and a industrial engineering bachelor degree. On the side, Bryan is partner of a boutique consulting firm based In South America that help SMB companies to craft their marketing and sales strategy. He is interest in AI business topics and exploring restaurants around the city."
           >
           </SpeakerCard>
           <SpeakerCard
             name="Tenzin Ozaki"
             image="/guests/TO.png"
-            title="Account Executive/SAP"
+            title="Account Executive, SAP"
             description="Tenzin has been at SAP for two years, joining through SAP’s Sales Academy program and currently working as a Large Enterprise Account Executive on Canada’s Public Sector industry team. Tenzin covers Federal Crown Corporations, Municipalities, and Higher Education, including the University of Toronto.
 "
           >
@@ -296,12 +323,213 @@ export default function Home() {
           <SpeakerCard
             name="Anton Charles Doss"
             image="/guests/ACD.png"
-            title="SAP Consultant - Technical Service Manager / Company: SAP Canada"
+            title="SAP Consultant - Technical Service Manager, SAP"
             description="Charles is an SAP BASIS professional working as a Technical Service Manager (TSM) in the Enterprise Cloud Services (ECS) unit. He serves as a trusted technical advisor, ensuring the security and optimization of customers&apos; SAP systems within SAP ECS. With a deep understanding of customer business processes, IT landscapes, and complexities, he plays a key role in guiding organizations through their digital transformation. As part of the RISE with SAP initiative, supporting SAP ERP customers in their transition to SAP Business Suite, enabling them to stay ahead of the competition and drive continuous innovation. A passionate sports enthusiast with a keen interest in cricket and table tennis."
           >
           </SpeakerCard>
         </div>
-        {/* <hr className="bg-primary w-1/3 h-[2px] mx-auto mt-10"></hr> */}
+
+        <div className="text-center">
+          <DescriptionCards header="Our Team" paragraph=""></DescriptionCards>
+          <div className="flex flex-wrap gap-5 justify-center">
+            <SpeakerCard
+              name="Kirsten"
+              image="/team/Kirsten.png"
+              title="Organizer"
+              company="WiCS"
+              description="3rd-year Computer Science, passionate about startups & education 🚀📚, always exploring new ideas over tea 🍵"
+            ></SpeakerCard>
+            <SpeakerCard
+              name="Jessica"
+              image="/team/Jessica.png"
+              title="Organizer"
+              company="Illuminaite"
+              description="3rd year Machine Intelligence in Engineering Science, interested in AI & the mind 🧠 , obsessed with music and coffee 🎶 ☕"
+            ></SpeakerCard>
+            <SpeakerCard
+              name="Savanna"
+              image="/team/Savanna.png"
+              title="Organizer"
+              company="Illuminaite, WiCS"
+              description="4th year Computer Science👩🏻‍💻interested in building startups and business🐹"
+            ></SpeakerCard>
+            <SpeakerCard
+              name="Helia"
+              image="/team/Helia.png"
+              title="Academic Outreach, Finance"
+              company="WiCS + Illuminaite"
+              description="Computer Science Specialist interested in AI, particularly its applications in healthcare."
+            ></SpeakerCard>
+            <SpeakerCard
+              name="Mahek"
+              image="/team/Mahek.png"
+              title="Academic Outreach"
+              company="WiCS"
+              description="I&apos;m a 3rd year Computer Science Specialist, interested in AI and its applications."
+            ></SpeakerCard>
+            <SpeakerCard
+              name="Nour"
+              image="/team/Nour.png"
+              title="Academic Outreach"
+              company="Illuminaite"
+              description="3rd year Computer Science and Philosophy, interested in AI and its applications to game design 🎮, passionate about theatre and music 🎭🥁"
+            ></SpeakerCard>
+            <SpeakerCard
+              name="Shiley"
+              image="/team/Shiley.png"
+              title="Academic Outreach"
+              company="Illuminaite"
+              description="1st year Life Science, hoping to go into Bioinformatics. Interested in ML and AI applications in the medical field."
+            ></SpeakerCard>
+            <SpeakerCard
+              name="Doga"
+              image="/team/Doga.png"
+              title="Academic Outreach"
+              company="Illuminaite"
+              description="I am a third year Engineering Science in Machine Intelligence. I am deeply interested in biomedical and artistic applications of AI!"
+            ></SpeakerCard>
+            <SpeakerCard
+              name="Yumna"
+              image="/team/Yumna.png"
+              title="Industry Outreach, Sponsorship"
+              company="Illuminaite"
+              description="4th year computer science specialist, AI-enthusiast in fitness and wearable technology, Driven by inclusivity and sustainability to make the world a better place."
+            ></SpeakerCard>
+            <SpeakerCard
+              name="Danny"
+              image="/team/Danny.png"
+              title="Industry Outreach"
+              company="Illuminaite"
+              description="Hi, I&apos;m Danny. I’m a 3rd student at UofT studying Philosophy, Bioethics, and Contemporary Asian Studies. I&apos;m interested in ethical issues of AI, photography, and filmmaking."
+            ></SpeakerCard>
+            <SpeakerCard
+              name="Kumkum"
+              image="/team/Kumkum.png"
+              title="Industry Outreach"
+              company="Illuminaite"
+              description="4th year Math and CS, interested in AI and human cognition simulation- A boxer and enjoy music"
+            ></SpeakerCard>
+            <SpeakerCard
+              name="Pongpang"
+              image="/team/Pongpang.png"
+              title="Industry Outreach"
+              company="Illuminaite"
+              description="I’m a first-year Computer Science (+psychology) student, and I’m super passionate about AI innovation. I love exploring how technology can make a positive impact on the world! 🌟"
+            ></SpeakerCard>
+            <SpeakerCard
+              name="Elodie"
+              image="/team/Elodie.png"
+              title="Sponsorship Outreach"
+              company="Illuminaite"
+              description="1st year in math & physical science 📖 interested in the intersection of AI and healthcare 🩺 always up for a bouldering session 🧗‍♀️🪨"
+            ></SpeakerCard>
+            <SpeakerCard
+              name="Zimo"
+              image="/team/Zimo.png"
+              title="Sponsorship Outreach"
+              company="WiCS"
+              description="I&apos;m a 1st year Computer Science student, interested in AI and its applications."
+            ></SpeakerCard>
+            <SpeakerCard
+              name="Manahill"
+              image="/team/Manahill.png"
+              title="Sponsorship Outreach"
+              company="WiCS"
+              description="I&apos;m a 2nd year Computer Science Specialist, interested in AI and its applications."
+            ></SpeakerCard>
+            <SpeakerCard
+              name="Abeera"
+              image="/team/Abeera.png"
+              title="Sponsorship Outreach"
+              company="Illuminaite"
+              description="I’m Abeera, I’m a second year cs specialist and stats minor and I love binging friends and brooklyn nine nine in my free time 🙂"
+            ></SpeakerCard>
+            <SpeakerCard
+              name="Shirley"
+              image="/team/Shirley.png"
+              title="Event Planning"
+              company="External"
+              description="Hi! I&apos;m Shirley, a second year computer science specialist interested in exploring machine learning and information security! In my free time I enjoy playing volleyball and taking part in club activities 🙂"
+            ></SpeakerCard>
+            <SpeakerCard
+              name="Lily"
+              image="/team/Lily.png"
+              title="Event Planning"
+              company="WiCS"
+              description="I&apos;m a 2nd year Computer Science specialist with a minor in Statistics, interested in AI and its applications."
+            ></SpeakerCard>
+            <SpeakerCard
+              name="Caitlyn"
+              image="/team/Caitlyn.png"
+              title="Event Planning"
+              company="Illuminaite"
+              description="A 3rd year Bachelor of Information student interested in design and cognitive psychology 🧠 An avid knitter and chronic workaholic trying to bring positive change 🖌️"
+            ></SpeakerCard>
+            <SpeakerCard
+              name="Xiaohan"
+              image="/team/Xiaohan.png"
+              title="Event Planning"
+              company="Illuminaite"
+              description="1st year Physical & Mathematical Sciences, interested in art, music and photography"
+            ></SpeakerCard>
+            <SpeakerCard
+              name="Tanvi"
+              image="/team/Tanvi.png"
+              title="Marketing"
+              company="Illuminaite"
+              description="4th year Computer Science 💻 - interested in use of technology in healthcare - enjoy long walks around the city 🌇"
+            ></SpeakerCard>
+            <SpeakerCard
+              name="Zoey"
+              image="/team/Zoey.png"
+              title="Marketing"
+              company="WiCS"
+              description="I&apos;m 3rd year Computer Science Specialist with a minor in Psychology. I&apos;m on the fencing team and have an obsession with the cream cheese danishes from T&T!"
+            ></SpeakerCard>
+            <SpeakerCard
+              name="Raenah"
+              image="/team/Raenah.png"
+              title="Marketing"
+              company="WiCS"
+              description="I&apos;m a 1st year Computer Science student, interested in AI and its applications."
+            ></SpeakerCard>
+            <SpeakerCard
+              name="Shaurya"
+              image="/team/Shaurya.png"
+              title="Marketing"
+              company="Illuminaite"
+              description="1st year Computer Science, interested in the use of ML with computer vision to better lives - I enjoy listening to music and camping"
+            ></SpeakerCard>
+            <SpeakerCard
+              name="Ashley"
+              image="/team/Ashley.png"
+              title="Marketing"
+              company="CSSU"
+              description="Hi! My name is Ashley, and I&apos;m a second-year student studying Bioinformatics and Computer Science. I like drawing, Pokemon, and anime!"
+            ></SpeakerCard>
+            <SpeakerCard
+              name="Una"
+              image="/team/Una.png"
+              title="Web Dev"
+              company="Illuminaite"
+              description="1st year Math and Physical Science, interested in the accessability and real-life applications of AI!"
+            ></SpeakerCard>
+            <SpeakerCard
+              name="Jason"
+              image="/team/Jason.png"
+              title="Logistics"
+              company="CSSU"
+              description="3rd year Computer Science specialist + statistics minor. I like information security and potatoes. If not on campus you&apos;ll probably find me on the GO train somewhere"
+            ></SpeakerCard>
+            <SpeakerCard
+              name="Nicole"
+              title="Web Dev"
+              image="/team/Nicole.png"
+              company="WiCS"
+              description="With a strong passion for technology, I have expanded my skills through multiple internships and projects, driven by a commitment to make meaningful contributions in the field."
+            ></SpeakerCard>
+          </div>
+        </div>
 
       </MaxWidthWrapper>
     </main>

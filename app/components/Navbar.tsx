@@ -61,6 +61,18 @@ const Navbar = () => {
                         >
                             prizes
                         </Link>
+                        <Link
+                            href={"/timeline_rubric"}
+                            className="duration-300 hover:scale-105 active:scale-95 hover:text-primary hover:font-medium"
+                        >
+                            timeline + rubric
+                        </Link>
+                        <Link
+                            href={"/resources"}
+                            className="duration-300 hover:scale-105 active:scale-95 hover:text-primary hover:font-medium"
+                        >
+                            hackathon resources
+                        </Link>
                         {/* <Link
                             href={"/join"}
                             className="duration-300 hover:scale-105 active:scale-95 hover:text-primary hover:font-medium"
@@ -124,12 +136,12 @@ const Navbar = () => {
                         >
                             prizes
                         </Link>
-                        <Link
+                        {/* <Link
                             href={"/join"}
                             className="border-b border-zinc-200 py-6 duration-300 hover:scale-105 active:scale-95 hover:text-primary"
                         >
                             join us
-                        </Link>
+                        </Link> */}
                     </div>
                 )}
             </MaxWidthWrapper>

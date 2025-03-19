@@ -4,7 +4,7 @@ import Perplexity from "../assets/logos/perplexity.png";
 import SAP from "../assets/logos/sap.png";
 import UofTEntrepreneurship from "../assets/logos/uoftentrepreneur.png";
 import CumulusData from "../assets/logos/cumulus.png";
-import Nowit from "../assets/logos/nowit.png";
+import Ncwit from "../assets/logos/Ncwit.png";
 
 export default function Home() {
   return (
@@ -82,11 +82,11 @@ export default function Home() {
           </div>
         </div>
         <div className="flex flex-col md:flex-row w-full justify-center items-center max-sm:mb-20">
-          <Image src={Nowit} alt="Nowit" className="w-1/4 max-sm:w-1/2" />
+          <Image src={Ncwit} alt="Ncwit" className="w-1/4 max-sm:w-1/2" />
           <div className="sm:text-xl w-2/3 mx-auto pt-5 text-base lg:text-2xl">
             <p>
-              <a href="https://nowit.ca/" target="_blank" className="text-secondary hover:underline">NowIT</a>
-              {` is a boutique IT Managed Services and CFO/Controller firm located in Toronto’s Fashion District. With years of experience, our engineers have the expertise across all enterprise-level operating systems, applications and platforms. We offer timely support for Windows and macOS desktops, notebooks and as well as servers and network equipment.`}
+              <a href="https://Ncwit.ca/" target="_blank" className="text-secondary hover:underline">The National Center for Women & Information Technology</a>
+              {` is a 501 nonprofit organization that works to increase participation of girls and women in computing. NCWIT was founded in 2004 by Lucinda Sanders, Dr. Telle Whitney, and Dr. Robert Schnabel.`}
             </p>
           </div>
         </div>

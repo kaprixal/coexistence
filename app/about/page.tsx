@@ -364,13 +364,6 @@ export default function Home() {
               description="3rd year Computer Science and Philosophy, interested in AI and its applications to game design 🎮, passionate about theatre and music 🎭🥁"
             ></SpeakerCard>
             <SpeakerCard
-              name="Shiley"
-              image="/team/Shiley.png"
-              title="Academic Outreach"
-              company="Illuminaite"
-              description="1st year Life Science, hoping to go into Bioinformatics. Interested in ML and AI applications in the medical field."
-            ></SpeakerCard>
-            <SpeakerCard
               name="Doga"
               image="/team/Doga.png"
               title="Academic Outreach"
@@ -474,13 +467,6 @@ export default function Home() {
               title="Marketing"
               company="WiCS"
               description="I&apos;m 3rd year Computer Science Specialist with a minor in Psychology. I&apos;m on the fencing team and have an obsession with the cream cheese danishes from T&T!"
-            ></SpeakerCard>
-            <SpeakerCard
-              name="Raenah"
-              image="/team/Raenah.png"
-              title="Marketing"
-              company="WiCS"
-              description="I&apos;m a 1st year Computer Science student, interested in AI and its applications."
             ></SpeakerCard>
             <SpeakerCard
               name="Shaurya"
